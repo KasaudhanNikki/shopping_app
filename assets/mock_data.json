@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {"id": "1", "name": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&q=80&w=300"},
+    {"id": "2", "name": "Fashion", "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=300"},
+    {"id": "3", "name": "Home", "imageUrl": "https://images.unsplash.com/photo-1556020685-e6319502f9b2?auto=format&fit=crop&q=80&w=300"}
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Wireless Noise-Canceling Headphones",
+      "description": "Experience premium sound quality and active noise cancellation with these wireless headphones. Up to 30 hours of battery life.",
+      "price": 299.99,
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "1",
+      "stockQuantity": 15,
+      "rating": 4.8
+    },
+    {
+      "id": "102",
+      "name": "Minimalist Smartwatch",
+      "description": "Track your fitness, heart rate, and notifications with this sleek and elegant smartwatch. Water-resistant and stylish.",
+      "price": 149.50,
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "1",
+      "stockQuantity": 8,
+      "rating": 4.5
+    },
+    {
+      "id": "201",
+      "name": "Classic Denim Jacket",
+      "description": "A timeless denim jacket made from high-quality cotton. Perfect for layering in any season.",
+      "price": 79.99,
+      "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "2",
+      "stockQuantity": 20,
+      "rating": 4.3
+    },
+    {
+      "id": "202",
+      "name": "Leather Crossbody Bag",
+      "description": "Genuine leather crossbody bag with adjustable strap and multiple compartments for your essentials.",
+      "price": 120.00,
+      "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "2",
+      "stockQuantity": 5,
+      "rating": 4.9
+    },
+    {
+      "id": "301",
+      "name": "Ceramic Coffee Mug",
+      "description": "Handcrafted ceramic mug with a unique glaze finish. Holds 12oz of your favorite hot beverage.",
+      "price": 18.50,
+      "imageUrl": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "3",
+      "stockQuantity": 50,
+      "rating": 4.6
+    },
+    {
+      "id": "103",
+      "name": "4K Ultra HD Action Camera",
+      "description": "Capture your adventures in stunning 4K resolution. Waterproof and comes with various mounting accessories.",
+      "price": 249.00,
+      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=600",
+      "categoryId": "1",
+      "stockQuantity": 0,
+      "rating": 4.7
+    }
+  ],
+  "addresses": [
+    {
+      "id": "a1",
+      "street": "123 Main Street, Apt 4B",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "isDefault": true
+    },
+    {
+      "id": "a2",
+      "street": "456 Tech Park Boulevard",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "isDefault": false
+    }
+  ]
+}
